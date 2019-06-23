@@ -40,9 +40,9 @@ class ToughQuestion2 {
                         	System.out.println("Enter the number teaspoon of Butter");
                         	butter = Integer.parseInt(br.readLine());
                         	//call the function which calculate the calories for  bread,jam & butter
+                        	System.out.println();
                         	System.out.printf("%.3f",cal.calculateEnergy(cal.calculateCalories(bread, jam, butter)));
                         	System.out.println(" kJ of energy generated from "+cal.returnCalories()+" calories");
-                        	System.out.println();
                         	break;
                         }
                         //System.out.printf("%.3f",ca.calculateEnergy());
